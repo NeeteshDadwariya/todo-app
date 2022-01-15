@@ -1,6 +1,6 @@
 .app {
   padding: 30px;
-  background-image: url("http://localhost:3001/images/bg1.jpeg");
+  background-image: url("https://neetesh-todo.herokuapp.com/images/bg1.jpeg");
   background-color: #cccccc;
   height: 920px;
 }
