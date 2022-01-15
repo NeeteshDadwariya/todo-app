@@ -4,7 +4,7 @@ const TODO_STATE = {
 }
 
 //Currently, keeping TODOs only in-memory as persistent storage was out-of-scope. Ideally should go to DB with proper
-//transaction management
+//transaction management. Using key-value dictionary to quickly access the TODO object by using the key
 const todos = {
     'TD00001': {state: TODO_STATE.OPEN, text: 'My First Task'},
     'TD00002': {state: TODO_STATE.OPEN, text: 'Submit ArtSci Full Stack Challenge'},
